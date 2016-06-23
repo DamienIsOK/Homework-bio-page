@@ -1,0 +1,45 @@
+body {
+	background-color: #FCFBE3;
+	margin: 3px 15px 3px 15px;
+}
+
+header {
+	font-weight: 400px;
+	font-family: Georgia; sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	background-color: #29293D;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+h2 {
+	color: #29293D;
+}
+
+#main {
+	display: inline;
+}
+
+#image {
+	border: 1px solid red;
+	width: 200px;
+	display: inline-block;
+	margin-right: 250px;
+	float: left;
+}
+
+#paragraph {
+	border: 1px solid blue;
+	width: 400px;
+	float: center;
+	display: inline-block;
+}
+
+#list {
+	border: 1px solid green;
+	width: 250px;
+	display: inline-block;
+	float: right;
+}
