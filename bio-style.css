@@ -10,36 +10,41 @@ header {
 	text-align: center;
 	color: white;
 	background-color: #29293D;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 3px 0px 3px 0px;
 }
 
 h2 {
+	margin-top: 25px;
+	width: 200px;
+}
+
+h2 h3 {
 	color: #29293D;
 }
 
-#main {
-	display: inline;
-}
-
-#image {
-	border: 1px solid red;
+#image-col {
 	width: 200px;
-	display: inline-block;
-	margin-right: 250px;
+	display: inline;
 	float: left;
+	margin: 0px 20px 0px 25px;
 }
 
-#paragraph {
-	border: 1px solid blue;
+#paragraph-col {
 	width: 400px;
-	float: center;
+	float: left;
 	display: inline-block;
+	margin-right: 100px;
+	margin-top: 85px;
 }
 
-#list {
-	border: 1px solid green;
-	width: 250px;
+#list-col {
+	width: 300px;
 	display: inline-block;
-	float: right;
+	padding-top: 0px;
+	margin-top: 35px;
+}
+
+#list-word {
+	font-weight: bold;
+	display: inline;
 }
